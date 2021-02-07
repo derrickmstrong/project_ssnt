@@ -20,11 +20,11 @@ const About = () => {
       <div className='row meet-sam-body'>
         <div className='col-md-4 text-center'>
           <img
-            src={`${process.env.PUBLIC_URL}/assets/about.svg`}
-            width='300'
-            height='300'
+            src={`${process.env.PUBLIC_URL}/assets/about.jpg`}
+            width='350'
+            height='350'
             alt=''
-            className='img-fluid rounded-50'
+            className='img-fluid rounded-circle'
           />
         </div>
         <div className='col-md-8'>

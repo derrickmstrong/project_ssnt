@@ -19,15 +19,9 @@ function App() {
         <header>
           <Nav />
           <Switch>
-            <Route
-              path={'/gallery'}
-              component={Gallery}
-            />
+            <Route path={'/gallery'} component={Gallery} />
             <Route path={'/order'} component={Order} />
-            <Route
-              path={'/full-menu'}
-              component={FullMenu}
-            />
+            <Route path={'/full-menu'} component={FullMenu} />
             <Route path={'/about'} component={About} />
             <Route path={'/'} component={Home} />
           </Switch>

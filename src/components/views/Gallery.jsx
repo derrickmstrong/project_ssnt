@@ -19,9 +19,11 @@ const Gallery = () => {
         Drip'
         />
       </div>
-      <div className='gallery-body'>
-        <h1>Gallery</h1>
+      <div className='row gallery-body'>
+        <div className="col-md-12">
+          <h1>Gallery</h1>
         <PhotoGallery images={images} />
+        </div>
       </div>
     </div>
   );

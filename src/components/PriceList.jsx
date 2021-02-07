@@ -19,6 +19,11 @@ const PriceList = () => {
                   <p className='card-text'>
                     {item.sq8_price && item.classic_price ? (
                       <>
+                        {item.rd6_title}
+                        <br />
+                        {item.rd6_price}
+                        <br />
+                        <br />
                         {item.rd8_title}
                         <br />
                         {item.rd8_price}
@@ -32,6 +37,11 @@ const PriceList = () => {
                         {item.rd12_title}
                         <br />
                         {item.rd12_price}
+                        <br />
+                        <br />
+                        {item.sq6_title}
+                        <br />
+                        {item.sq6_price}
                         <br />
                         <br />
                         {item.sq8_title}

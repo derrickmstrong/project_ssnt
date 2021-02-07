@@ -20,4 +20,11 @@ export const specials = [
     body: 'Thanksgiving is here',
     img_url: '/',
   },
+  {
+    title: '🆕 February Specials',
+    byLine: 'ByLine 1',
+    month: 1,
+    body: 'Valentine\'s Day is approaching and we have something special for you',
+    img_url: '/',
+  },
 ];

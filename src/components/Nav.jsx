@@ -95,7 +95,8 @@ const Nav = () => {
               <img
                 src={`${process.env.PUBLIC_URL}/assets/fb.png`}
                 width='35px'
-                alt=''
+                alt='Facebook'
+                title='Facebook'
                 className='mr-2'
               />
             </a>
@@ -106,7 +107,8 @@ const Nav = () => {
               <img
                 src={`${process.env.PUBLIC_URL}/assets/ig.png`}
                 width='35px'
-                alt=''
+                alt='Instagram'
+                title='Instagram'
                 className='mr-2'
               />
             </a>
@@ -141,33 +143,23 @@ const Nav = () => {
                 href='mailto:order@samsweetsandtreats.com'
                 target='_blank'
                 rel='noopener noreferrer'>
-                <small className=''>order@samsweetsandtreats.com</small>
+                order@samsweetsandtreats.com
               </a>
               <br /><br />
-              Phone: 205-XXX-XXXX<br /><br />
-              Social: 
+              Phone: <a href='tel:2057196670'>205-719-6670</a> <br /><br />
+              Social:  {' '}
               <span className=''>
                 <a
                   href='https://www.facebook.com/samsweetstreats'
                   target='_blank'
                   rel='noopener noreferrer'>
-                  <img
-                    src={`${process.env.PUBLIC_URL}/assets/fb.png`}
-                    width='35px'
-                    alt=''
-                    className='mr-2'
-                  />
-                </a>
+                  Facebook
+                </a> {' | '}
                 <a
                   href='https://www.instagram.com/samsweetstreats/'
                   target='_blank'
                   rel='noopener noreferrer'>
-                  <img
-                    src={`${process.env.PUBLIC_URL}/assets/ig.png`}
-                    width='35px'
-                    alt=''
-                    className='mr-2'
-                  />
+                  Instagram
                 </a>
               </span>
             </div>

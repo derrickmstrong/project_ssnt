@@ -15,16 +15,11 @@ const Hero = () => {
         </ol>
         <div className='carousel-inner'>
           <div className='carousel-item active'>
-            <svg
-              className='bd-placeholder-img'
-              width='100%'
-              height='100%'
-              xmlns='http://www.w3.org/2000/svg'
-              preserveAspectRatio='xMidYMid slice'
-              focusable='false'
-              role='img'>
-              <rect width='100%' height='100%' fill='#777' />
-            </svg>
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/hero_menu.png`}
+              alt=''
+              srcset=''
+            />
             <div className='container'>
               <div className='carousel-caption text-left'>
                 <h1>Example headline.</h1>
@@ -56,11 +51,11 @@ const Hero = () => {
               <rect width='100%' height='100%' fill='#777' />
             </svg>
             <div className='container'>
-              <div className='carousel-caption'>
+              <div className='carousel-caption text-left'>
                 <h1>Meet Sam</h1>
                 <p>
-                  Welcome to Sam’s Sweets &amp; Treats, where we bring you “A Taste
-                  of Happiness”.
+                  Welcome to Sam’s Sweets &amp; Treats, where we bring you “A
+                  Taste of Happiness”.
                 </p>
                 <p>
                   <Link
@@ -74,18 +69,13 @@ const Hero = () => {
             </div>
           </div>
           <div className='carousel-item'>
-            <svg
-              className='bd-placeholder-img'
-              width='100%'
-              height='100%'
-              xmlns='http://www.w3.org/2000/svg'
-              preserveAspectRatio='xMidYMid slice'
-              focusable='false'
-              role='img'>
-              <rect width='100%' height='100%' fill='#777' />
-            </svg>
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/hero_gallery.png`}
+              alt=''
+              srcset=''
+            />
             <div className='container'>
-              <div className='carousel-caption text-right'>
+              <div className='carousel-caption text-left'>
                 <h1>Cakes, Cookies, and So Much More</h1>
                 <p>
                   Cras justo odio, dapibus ac facilisis in, egestas eget quam.

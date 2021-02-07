@@ -1,7 +1,7 @@
 export const images = [
   {
-    src: `${process.env.PUBLIC_URL}/assets/drip.jpg`,
-    thumbnail: `${process.env.PUBLIC_URL}/assets/drip.jpg`,
+    src: `${process.env.PUBLIC_URL}/assets/gallery/drip.jpg`,
+    thumbnail: `${process.env.PUBLIC_URL}/assets/gallery/drip_thumb.png`,
     thumbnailWidth: 100,
     thumbnailHeight: 100,
     isSelected: false,
@@ -10,8 +10,8 @@ export const images = [
     category: 'gallery',
   },
   {
-    src: `${process.env.PUBLIC_URL}/assets/cupcakes.jpg`,
-    thumbnail: `${process.env.PUBLIC_URL}/assets/cupcakes.jpg`,
+    src: `${process.env.PUBLIC_URL}/assets/gallery/cupcakes.jpg`,
+    thumbnail: `${process.env.PUBLIC_URL}/assets/gallery/cupcakes_thumb.png`,
     thumbnailWidth: 100,
     thumbnailHeight: 100,
     isSelected: false,
