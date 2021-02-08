@@ -27,9 +27,9 @@ const Featured = () => {
               <p>
                 <Link
                   className='btn btn-brownie'
-                  to={`full-menu`}
+                  to={`order`}
                   role='button'>
-                  View details
+                  Order Now
                 </Link>
               </p>
             </div>

@@ -19,4 +19,14 @@ export const images = [
     caption: '',
     category: 'gallery',
   },
+  {
+    src: `${process.env.PUBLIC_URL}/assets/gallery/kailyn11th.jpg`,
+    thumbnail: `${process.env.PUBLIC_URL}/assets/gallery/kailyn11th_thumb.png`,
+    thumbnailWidth: 100,
+    thumbnailHeight: 100,
+    isSelected: false,
+    // tags: [{ value: 'cupcakes' }, { value: 'banana pudding' }],
+    caption: '',
+    category: 'gallery',
+  },
 ];

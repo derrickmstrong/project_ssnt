@@ -60,9 +60,12 @@ h1 {
 
 .social {
   float: right;
-  font-weight: bold;
-  color: var(--pinkcookies);
-  font-size: 1.25em;
+  margin-right: 0.3em;
+}
+
+.social-text {
+  visibility: hidden;
+  float: right;
   margin-right: 0.3em;
 }
 
@@ -103,6 +106,10 @@ a {
   color: var(--blueberry);
 }
 
+a:hover {
+  color: var(--pinkcookies);
+}
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
@@ -129,6 +136,7 @@ body {
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  /* transition: .5s ease-in-out; */
 }
 .carousel-item > img {
   position: absolute;
@@ -163,7 +171,7 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 3rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
@@ -258,7 +266,6 @@ body {
   color: var(--blueberry);
 }
 
-
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -300,6 +307,10 @@ body {
     display: none;
   }
   .social {
-  float: left;
-}
+    display: none;
+  }
+  .social-text {
+    float: left;
+    visibility: visible;
+  }
 }

@@ -8,7 +8,7 @@ export const products = [
     classic_price: '$27/dozen',
     specialty_price: '$36/dozen',
     discount: 0.15,
-    image: 'featured_cupcake.svg',
+    image: 'featured_cupcake.png',
     link: 'cupcakes',
     type: 'sweet',
     flavors: [
@@ -175,7 +175,7 @@ export const products = [
     classic_price: '',
     specialty_price: '',
     discount: 0.15,
-    image: 'featured_cookies.svg',
+    image: 'featured_cookies.png',
     link: 'order',
     type: 'treat',
     flavors: [

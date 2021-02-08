@@ -86,7 +86,28 @@ const Nav = () => {
                 Contact
               </span>
             </li>
+            <li>
+              <span className='nav-link social-text'>
+                <a
+                  href='https://www.facebook.com/samsweetstreats'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  Facebook
+                </a>
+              </span>
+            </li>
+            <li>
+              <span className='nav-link social-text'>
+                <a
+                  href='https://www.instagram.com/samsweetstreats/'
+                  target='_blank'
+                  rel='noopener noreferrer'>
+                  Instagram
+                </a>
+              </span>
+            </li>
           </ul>
+
           <span className='social'>
             <a
               href='https://www.facebook.com/samsweetstreats'
@@ -115,7 +136,6 @@ const Nav = () => {
           </span>
         </div>
       </nav>
-
       {/* Contact Modal  */}
       <div
         class='modal fade'
@@ -145,16 +165,19 @@ const Nav = () => {
                 rel='noopener noreferrer'>
                 order@samsweetsandtreats.com
               </a>
-              <br /><br />
-              Phone: <a href='tel:2057196670'>205-719-6670</a> <br /><br />
-              Social:  {' '}
+              <br />
+              <br />
+              Phone: <a href='tel:2057196670'>205-719-6670</a> <br />
+              <br />
+              Social:{' '}
               <span className=''>
                 <a
                   href='https://www.facebook.com/samsweetstreats'
                   target='_blank'
                   rel='noopener noreferrer'>
                   Facebook
-                </a> {' | '}
+                </a>{' '}
+                {' | '}
                 <a
                   href='https://www.instagram.com/samsweetstreats/'
                   target='_blank'

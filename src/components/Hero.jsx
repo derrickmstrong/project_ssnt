@@ -16,18 +16,16 @@ const Hero = () => {
         <div className='carousel-inner'>
           <div className='carousel-item active'>
             <img
-              src={`${process.env.PUBLIC_URL}/assets/hero_menu.png`}
+              src={`${process.env.PUBLIC_URL}/assets/hero_menu2.png`}
               alt=''
               srcset=''
             />
             <div className='container'>
               <div className='carousel-caption text-left'>
-                <h1>Example headline.</h1>
-                <p>
-                  Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                  Donec id elit non mi porta gravida at eget metus. Nullam id
-                  dolor id nibh ultricies vehicula ut id elit.
-                </p>
+                <h1>Welcome to SS&amp;T</h1>
+                {/* <p>
+                  Enjoy our delicious desserts. 
+                </p> */}
                 <p>
                   <Link
                     className='btn btn-lg btn-blueberry'
@@ -40,29 +38,24 @@ const Hero = () => {
             </div>
           </div>
           <div className='carousel-item'>
-            <svg
-              className='bd-placeholder-img'
-              width='100%'
-              height='100%'
-              xmlns='http://www.w3.org/2000/svg'
-              preserveAspectRatio='xMidYMid slice'
-              focusable='false'
-              role='img'>
-              <rect width='100%' height='100%' fill='#777' />
-            </svg>
+            <img
+              src={`${process.env.PUBLIC_URL}/assets/hero_about3.png`}
+              alt=''
+              srcset=''
+            />
             <div className='container'>
               <div className='carousel-caption text-left'>
                 <h1>Meet Sam</h1>
-                <p>
+                {/* <p>
                   Welcome to Sam’s Sweets &amp; Treats, where we bring you “A
                   Taste of Happiness”.
-                </p>
+                </p> */}
                 <p>
                   <Link
                     className='btn btn-lg btn-blueberry'
                     to='about'
                     role='button'>
-                    Learn more
+                    Learn Her Story
                   </Link>
                 </p>
               </div>
@@ -70,24 +63,24 @@ const Hero = () => {
           </div>
           <div className='carousel-item'>
             <img
-              src={`${process.env.PUBLIC_URL}/assets/hero_gallery.png`}
+              src={`${process.env.PUBLIC_URL}/assets/hero_gallery2.png`}
               alt=''
               srcset=''
             />
             <div className='container'>
               <div className='carousel-caption text-left'>
-                <h1>Cakes, Cookies, and So Much More</h1>
-                <p>
+                <h1>We <span role='img' aria-label='heart'>❤️</span> Desserts</h1>
+                {/* <p>
                   Cras justo odio, dapibus ac facilisis in, egestas eget quam.
                   Donec id elit non mi porta gravida at eget metus. Nullam id
                   dolor id nibh ultricies vehicula ut id elit.
-                </p>
+                </p> */}
                 <p>
                   <Link
                     className='btn btn-lg btn-blueberry'
                     to='gallery'
                     role='button'>
-                    Browse gallery
+                    Browse Gallery
                   </Link>
                 </p>
               </div>

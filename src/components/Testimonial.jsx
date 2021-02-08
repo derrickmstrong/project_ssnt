@@ -18,7 +18,7 @@ const Testimonial = () => {
           <div className='carousel-item active '>
             <div className='container'>
               <div className='carousel-caption text-center'>
-                <h1>Super Talented</h1>
+                <h2 className='my-1'>Super Talented</h2>
                 <p>
                   The Lemon squares are to die for. This young lady is super
                   talented!!!!
@@ -30,9 +30,11 @@ const Testimonial = () => {
           <div className='carousel-item'>
             <div className='container'>
               <div className='carousel-caption text-center'>
-                <h1>
-                  <span role='img' aria-label='welovebananapuddingcupcakes'>😍 🍌 🧁 😍</span>
-                </h1>
+                <h2 className='my-2'>
+                  <span role='img' aria-label='welovebananapuddingcupcakes'>
+                    😍 🍌 🧁 😍
+                  </span>
+                </h2>
                 <p>
                   If you like banana pudding, you’ll love her banana pudding
                   cupcakes. <br />- R. Campbell
@@ -43,11 +45,10 @@ const Testimonial = () => {
           <div className='carousel-item '>
             <div className='container'>
               <div className='carousel-caption text-center'>
-                <h1>Best cupcakes...</h1>
+                <h2 className='my-2'>Best cupcakes...</h2>
                 <p>
                   Sam’s S&amp;T has some of the best cupcakes that I have ever
-                  tasted. Great job!
-                  <br /> - Mom
+                  tasted. <br /> - Mom
                 </p>
               </div>
             </div>

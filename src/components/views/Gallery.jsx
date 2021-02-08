@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 import PhotoGallery from 'react-grid-gallery';
@@ -6,6 +6,10 @@ import PhotoGallery from 'react-grid-gallery';
 import { images } from '../../data/images';
 
 const Gallery = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    return () => {};
+  }, []);
   return (
     <div className='container my-2'>
       <Helmet>
@@ -20,9 +24,9 @@ const Gallery = () => {
         />
       </div>
       <div className='row gallery-body'>
-        <div className="col-md-12">
+        <div className='col-md-12'>
           <h1>Gallery</h1>
-        <PhotoGallery images={images} />
+          <PhotoGallery images={images} />
         </div>
       </div>
     </div>

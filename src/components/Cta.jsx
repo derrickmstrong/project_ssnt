@@ -26,8 +26,9 @@ const CTA = () => {
               <div className={`col-md-5 ${item.order_2}`}>
                 <img
                   src={`${process.env.PUBLIC_URL}/assets/${item.image}`}
-                  width='375'
+                  width='350'
                   alt={item.alt}
+                  className='rounded-circle'
                 />
               </div>
             </div>
