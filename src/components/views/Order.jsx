@@ -23,7 +23,7 @@ const Order = () => {
       <div className='order-body'>
         <h1>Order Now</h1>
         <JotformEmbed
-          src='https:form.jotform.com/201154754968160'
+          src='https://form.jotform.com/201154754968160'
           scrolling='true'
         />
       </div>
