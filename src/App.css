@@ -202,7 +202,7 @@ body {
 .full-menu-body {
   line-height: 1.5em;
 }
-.bio {
+.bio, .thank-you {
   line-height: 2em;
 }
 
@@ -229,7 +229,8 @@ body {
 .full-menu-body,
 .meet-sam-body,
 .order-body,
-.gallery-body {
+.gallery-body,
+.thank-you-body {
   position: relative;
   top: -250px;
 }

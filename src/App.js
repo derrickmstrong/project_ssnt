@@ -11,6 +11,7 @@ import About from './components/views/About';
 import FullMenu from './components/views/FullMenu';
 import Order from './components/views/Order';
 import Gallery from './components/views/Gallery';
+import ThankYou from './components/views/ThankYou';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <header>
           <Nav />
           <Switch>
+            <Route path={'/thankyou'} component={ThankYou} />
             <Route path={'/gallery'} component={Gallery} />
             <Route path={'/order'} component={Order} />
             <Route path={'/full-menu'} component={FullMenu} />
