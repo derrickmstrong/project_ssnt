@@ -57,13 +57,13 @@ const Nav = () => {
                   data-target='#pricelistModal'>
                   Price List
                 </span>
-                <span
+                {/* <span
                   className='specials dropdown-item'
                   to='/'
                   data-toggle='modal'
                   data-target='#specialsModal'>
                   Specials
-                </span>
+                </span> */}
               </div>
             </li>
             <li className='nav-item'>
@@ -270,8 +270,8 @@ const Nav = () => {
             <div class='modal-body'>
               <PriceList />
               <p>
-                Note: All toppers, icing images and accessories are an extra
-                charge. Ask for a quote for detailed pricing.
+                Note: Additional fees apply for decor on desserts.<br/>(Ex. toppers, fondant, accessories,
+                etc.)
               </p>
             </div>
           </div>
