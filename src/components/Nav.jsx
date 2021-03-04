@@ -31,8 +31,8 @@ const Nav = () => {
         <div className='collapse navbar-collapse' id='navbarCollapse'>
           <ul className='navbar-nav mr-auto'>
             <li className='nav-item'>
-              <Link className='nav-link' to={`about`}>
-                About
+              <Link className='nav-link' to={`meet-sam`}>
+                Meet Sam
               </Link>
             </li>
             <li class='nav-item dropdown'>

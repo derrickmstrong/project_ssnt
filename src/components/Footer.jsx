@@ -35,7 +35,7 @@ const Footer = () => {
               Instagram
             </a>
           </span>{' '}
-          &middot; <Link to='/'>FAQ</Link> &middot; <Link to='/'>Terms</Link>
+          {/* &middot; <Link to='/'>FAQ</Link> &middot; <Link to='/'>Terms</Link> */}
         </p>
       </footer>
     </Fragment>

@@ -12,7 +12,7 @@ const About = () => {
     <div className='container my-2'>
       <Helmet>
         <meta charSet='utf-8' />
-        <title>About - Sam's Sweet and Treats</title>
+        <title>Meet Sam - Sam's Sweet and Treats</title>
       </Helmet>
       <div className='drip'>
         <img
