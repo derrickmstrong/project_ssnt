@@ -53,7 +53,7 @@ const Hero = () => {
                 <p>
                   <Link
                     className='btn btn-lg btn-blueberry'
-                    to='about'
+                    to='meet-sam'
                     role='button'>
                     Learn Her Story
                   </Link>
