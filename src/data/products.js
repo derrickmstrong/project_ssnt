@@ -240,7 +240,7 @@ export const products = [
     image: 'drip.jpg',
     link: 'order',
     type: 'treat',
-    flavors: [' 🍫Chocolate-covered,', ' Caramel-covered'],
+    flavors: [' 🍫Chocolate-covered,'],
     isSpecialty: false,
     isBestSeller: false,
     isFeatured: false,

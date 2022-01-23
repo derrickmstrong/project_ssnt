@@ -1,6 +1,6 @@
 export const cta = [
   {
-    title: 'Serving Birmingham, Alabama and surrounding areas',
+    title: 'Serving middle Georgia and surrounding areas',
     byLine: '',
     byline_link: '/order',
     message:
