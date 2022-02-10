@@ -160,10 +160,10 @@ const Nav = () => {
             <div class='modal-body'>
               Email:{' '}
               <a
-                href='mailto:order@samsweetsandtreats.com'
+                href='mailto:orders@samsweetsandtreats.com'
                 target='_blank'
                 rel='noopener noreferrer'>
-                order@samsweetsandtreats.com
+                orders@samsweetsandtreats.com
               </a>
               <br />
               <br />

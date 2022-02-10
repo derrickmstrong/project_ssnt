@@ -71,7 +71,7 @@ const PriceList = () => {
                   <p className='card-text'>
                     {item.current_price === 'Ask for a quote' ? (
                       <a
-                        href='mailto:order@samsweetsandtreats.com'
+                        href='mailto:orders@samsweetsandtreats.com'
                         target='_blank'
                         rel='noopener noreferrer'
                         style={{ textDecoration: 'none' }}>
@@ -79,7 +79,7 @@ const PriceList = () => {
                       </a>
                     ) : item.current_price === 'Schedule an appointment' ? (
                       <a
-                        href='mailto:order@samsweetsandtreats.com'
+                        href='mailto:orders@samsweetsandtreats.com'
                         target='_blank'
                         rel='noopener noreferrer'
                         style={{ textDecoration: 'none' }}>
